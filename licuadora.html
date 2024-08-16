@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/estilos.css">
+   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+   <title>LicuadoraJS</title>
+</head>
+
+<body>
+
+   <div class="area2">
+      <div id="blender" class="blender">
+         <div id="blender-button" class="blender-button" onclick="controlarLicuadora()"></div>
+      </div>
+
+
+      <audio id="blender-sound" src="sound/licuadora.mp3" type="audio/mpeg" loop></audio>
+      <audio id="blender-button-sound" src="sound/botonLicuadora.mp3" type="audio/mpeg"></audio>
+
+
+      <div id="televisor" class="televisor">
+         <div id="televisor-button" class="televisor-button" onclick="controlarTelevisor()"></div>
+      </div>
+
+
+      <audio id="televisor-sound" src="sound/sonidoTelevisor.mp3" type="audio/mpeg" loop></audio>
+      <audio id="televisor-button-sound" src="sound/botonLicuadora.mp3" type="audio/mpeg"></audio>
+
+
+
+      <div id="tostadora" class="tostadora">
+         <div id="tostadora-button" class="tostadora-button" onclick="controlarTostadora()"></div>
+
+         <audio id="tostadora-sound" src="sound/sonidoTostadora.mp3" type="audio/mpeg" loop></audio>
+         <audio id="tostadora-button-sound" src="sound/botonLicuadora.mp3" type="audio/mpeg"></audio>
+      </div>
+
+      <div id="radio" class="radio">
+         <div id="radio-button" class="radio-button" onclick="controlarRadio()"></div>
+
+         <audio id="radio-sound" src="sound/sonidoRadio.mp3" type="audio/mpeg" loop></audio>
+         <audio id="radio-button-sound" src="sound/botonLicuadora.mp3" type="audio/mpeg"></audio>
+
+      </div>
+
+      <div id="ventilador" class="ventilador">
+         <div id="ventilador-button" class="ventilador-button" onclick="controlarVentilador()"></div>
+
+         <audio id="ventilador-sound" src="sound/sonidoVentilador.mp3" type="audio/mpeg" loop></audio>
+         <audio id="ventilador-button-sound" src="sound/botonLicuadora.mp3" type="audio/mpeg"></audio>
+
+      </div>
+
+      <div id="mp3" class="mp3">
+         <div id="mp3-button" class="mp3-button" onclick="controlarMp3()"></div>
+
+         <audio id="mp3-sound" src="sound/sonidoMp3.mp3" type="audio/mpeg" loop></audio>
+         <audio id="mp3-button-sound" src="sound/botonLicuadora.mp3" type="audio/mpeg"></audio>
+
+
+      </div>
+   </div>
+
+   </div>
+
+   <script src="js/motorcito.js"></script>
+</body>
+
+</html>

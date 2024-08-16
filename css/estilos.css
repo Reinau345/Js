@@ -1,0 +1,168 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.area2 {
+  padding: 15px;
+  display: flex;
+  background-position: center;
+  justify-content: center;
+  align-items: flex-start;
+  align-items: baseline;
+  align-items: center;
+  align-content: space-between;
+  flex-flow: row wrap;
+  flex-direction: row;
+  justify-items: auto;
+  column-width: auto;
+  white-space: 30px;
+  margin: 30px;
+  height: 600px;
+  width: 95%;
+
+}
+
+.blender {
+  min-width: 700px;
+  height: 500px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../img/licuadoraApagada.png);
+}
+
+.blender.active {
+  background-image: url(../img/licuadoraEncendida.gif);
+}
+
+.blender-button {
+  /* Posicionamiento */
+  margin: 367px auto 0px;
+
+  /* Estilos */
+  width: 30px;
+  height: 50px;
+  /*background-color: brown;*/
+  /* border: 1px solid red; */
+}
+
+.televisor {
+
+  min-width: 250px;
+  height: 250px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(../img/TelevisorDañado.gif);
+
+}
+
+.televisor.active {
+  background-image: url(../img/TelevisorBueno.gif);
+}
+
+.televisor-button {
+  /* Posicionamiento */
+  margin: 50px auto 0px;
+
+  /* Estilos */
+  width: 30px;
+  height: 50px;
+ /* background-color: brown;*/
+  /* border: 1px solid red; */
+}
+
+.tostadora {
+
+  min-width: 300px;
+  height: 250px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../img/tostadoraApagada.jpg);
+
+}
+
+.tostadora.active {
+  background-image: url(../img/tostadoraPrendida.gif);
+}
+
+.tostadora-button {
+  /* Posicionamiento */
+  margin: 160px auto 0px;
+
+  /* Estilos */
+  width: 20px;
+  height: 25px;
+  border-radius: 100px;
+  background-color: rgb(58, 54, 54);
+  /* border: 1px solid red; */
+}
+
+.radio {
+  min-width: 300px;
+  height: 250px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../img/radioApagado.jpg);
+
+}
+
+.radio.active {
+  background-image: url(../img/radioPrendido.gif);
+}
+
+.radio-button {
+  /* Estilos */
+  margin: 200px auto 0px;
+  width: 80px;
+  height: 50px;
+  /*background-color: brown;*/
+
+}
+
+.ventilador {
+  min-width: 300px;
+  height: 250px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../img/bentiladorApagado.jpg);
+
+}
+
+.ventilador.active {
+  background-image: url(../img/ventiladorPrendido.gif);
+}
+
+.ventilador-button {
+  margin: 83px auto 0px;
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+ /* background-color: aqua;*/
+}
+
+.mp3{
+  min-width: 300px;
+  height: 250px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../img/mp3Apagado.jpg);
+}
+.mp3.active {
+  background-image: url(../img/mp3Prendido.gif);
+}
+
+.mp3-button {
+  margin: 158px auto 0px;
+  width: 40px;
+  height: 40px;
+  border-radius: 100px;
+ /* background-color: brown;*/
+}
+
+  
